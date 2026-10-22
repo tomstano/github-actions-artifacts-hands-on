@@ -29,5 +29,6 @@ jobs:
         name: hello-artifact
         path: ./artifacts
     
-    - name: Print file context
-      run: cat ./artifacts/hello.txt
+    - name: Display content of the text fil
+      run: |
+          cat ./artifacts/hello.txt
